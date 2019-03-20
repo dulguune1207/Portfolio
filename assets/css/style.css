@@ -3,11 +3,11 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777;
-    background:#6bcdff; /* Old browsers */
-    background: -moz-linear-gradient(top, #6bcdff 0%, #6bcdff 0%, #6bcdff 0%, #a8dcff 28%, #e5ebee 50%, #d6f1ff 73%, #f5f7f9 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #6bcdff 0%,#6bcdff 0%,#6bcdff 0%,#a8dcff 28%,#e5ebee 50%,#d6f1ff 73%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #6bcdff 0%,#6bcdff 0%,#6bcdff 0%,#a8dcff 28%,#e5ebee 50%,#d6f1ff 73%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bcdff', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */;
+    background:#ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, white 0%, white 0%, white 0%, #a8dcff 28%, #e5ebee 50%, #d6f1ff 73%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, white 0%,white 0%,white 0%,#a8dcff 28%,#e5ebee 50%,#d6f1ff 73%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, white 0%,white 0%,white 0%,#a8dcff 28%,#e5ebee 50%,#d6f1ff 73%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */;
   }
   
   * {
@@ -64,28 +64,28 @@ body {
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
-    color: #fff;
-    background: rgb(195, 221, 255);
-    border-bottom: 2px solid rgb(60, 90, 255);
+    color: rgb(138, 138, 138);
+    background: white;
+    border-bottom: 2px solid rgb(161, 161, 161);
   }
   
   #logo {
     float: left;
-    width: 250px;
-    height: 90px;
+    width: 400px;
+    height: 60px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     font-weight: 700;
-    line-height: 90px;
-    color: #fff;
+    line-height: 65px;
+    color: rgb(138, 138, 138);
     text-align: center;
     text-decoration: none;
-    background: #3fa5f8;
+    background: white;
   }
   
   nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 15px;
   }
   
   nav a {
@@ -93,7 +93,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(138, 138, 138);
     text-decoration: none;
     border-left: 1px solid #363636;
   }
@@ -105,14 +105,14 @@ body {
   /* footer */
   
   footer {
-    padding: 30px 0;
+    padding: 20px 0;
     clear: both;
     font-size: 12px;
     color: #fff;
-    color: rgb(255, 255, 255);
+    color: rgb(138, 138, 138);
     text-align: center;
-    background: rgb(168, 211, 247);
-    border-top: 8px solid #3fa5f8;
+    background: white;
+    border-top: 2px solid #5e5e5e;
 
   }
   
